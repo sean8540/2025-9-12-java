@@ -9,13 +9,7 @@ public class b1330 {
 		
 		int a = sc.nextInt();
 		int b = sc.nextInt();
-		
-		if(a > b) {
-			System.out.println(">");
-		} else if(a < b) {
-			System.out.println("<");
-		} else if (a == b){
-			System.out.println("==");
-		}
+		System.out.println(a > b ? ">" : (a < b ? "<" : "=="));
+		sc.close();
 	}
 }
